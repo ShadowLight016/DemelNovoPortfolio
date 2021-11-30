@@ -1,7 +1,11 @@
-/* Navbar */
 :root{
   --primary-white: #fff;
   --primary-green: #03c03c;
+}
+
+/* Navbar */
+nav{
+  z-index: 2;
 }
 
 #portfolio-text-splitted, #github-logo, #linkedin-logo, .navbar-icons {
@@ -267,4 +271,45 @@
   60% {
     fill: var(--primary-white);
   }
+}
+
+/* Header */
+.header-wrapper {
+  position: relative;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(pexels-pixabay-270360.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.main-info{
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 1;
+}
+
+.main-info h1{
+  color: var(--primary-green);
+}
+
+/* Typed Text */
+.typed-text{
+  font-size: 2rem;
+  color: var(--primary-white);
+}
+
+/* Particles */
+.tsparticles-canvas-el{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
 }
