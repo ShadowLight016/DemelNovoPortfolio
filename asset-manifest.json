@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/DemelNovoPortfolio/static/css/main.cffd6a0b.chunk.css",
+    "main.js": "/DemelNovoPortfolio/static/js/main.575a9922.chunk.js",
+    "main.js.map": "/DemelNovoPortfolio/static/js/main.575a9922.chunk.js.map",
+    "runtime-main.js": "/DemelNovoPortfolio/static/js/runtime-main.3a77a395.js",
+    "runtime-main.js.map": "/DemelNovoPortfolio/static/js/runtime-main.3a77a395.js.map",
+    "static/css/2.a75f5a2c.chunk.css": "/DemelNovoPortfolio/static/css/2.a75f5a2c.chunk.css",
+    "static/js/2.ff844f57.chunk.js": "/DemelNovoPortfolio/static/js/2.ff844f57.chunk.js",
+    "static/js/2.ff844f57.chunk.js.map": "/DemelNovoPortfolio/static/js/2.ff844f57.chunk.js.map",
+    "static/js/3.691781fb.chunk.js": "/DemelNovoPortfolio/static/js/3.691781fb.chunk.js",
+    "static/js/3.691781fb.chunk.js.map": "/DemelNovoPortfolio/static/js/3.691781fb.chunk.js.map",
+    "index.html": "/DemelNovoPortfolio/index.html",
+    "static/css/2.a75f5a2c.chunk.css.map": "/DemelNovoPortfolio/static/css/2.a75f5a2c.chunk.css.map",
+    "static/css/main.cffd6a0b.chunk.css.map": "/DemelNovoPortfolio/static/css/main.cffd6a0b.chunk.css.map",
+    "static/js/2.ff844f57.chunk.js.LICENSE.txt": "/DemelNovoPortfolio/static/js/2.ff844f57.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/DemelNovoPortfolio/static/media/pexels-pixabay-270360.635909b8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3a77a395.js",
+    "static/css/2.a75f5a2c.chunk.css",
+    "static/js/2.ff844f57.chunk.js",
+    "static/css/main.cffd6a0b.chunk.css",
+    "static/js/main.575a9922.chunk.js"
+  ]
+}
