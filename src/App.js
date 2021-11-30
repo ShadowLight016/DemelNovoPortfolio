@@ -13,7 +13,7 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route exact path="/" element={<Header />} />
+        <Route exact path="/DemelNovoPortfolio" element={<Header />} />
         <Route path="/About" element={<About />} />/
       </Routes>
       {/* <About /> */}

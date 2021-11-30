@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
             <div className="container-fluid">
-                <Link className="navbar-brand abs" to="/">
+                <Link className="navbar-brand abs" to="/DemelNovoPortfolio">
                     <svg width="92" height="28" viewBox="0 0 92 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="portfolio-text-splitted">
                             <path id="nav-brand-name-p" d="M4.23047 15.3203V22H1.98047V4.9375H8.27344C10.1406 4.9375 11.6016 5.41406 12.6562 6.36719C13.7188 7.32031 14.25 8.58203 14.25 10.1523C14.25 11.8086 13.7305 13.0859 12.6914 13.9844C11.6602 14.875 10.1797 15.3203 8.25 15.3203H4.23047ZM4.23047 13.4805H8.27344C9.47656 13.4805 10.3984 13.1992 11.0391 12.6367C11.6797 12.0664 12 11.2461 12 10.1758C12 9.16016 11.6797 8.34766 11.0391 7.73828C10.3984 7.12891 9.51953 6.8125 8.40234 6.78906H4.23047V13.4805Z"/>
@@ -26,7 +26,7 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav me-auto">
                         <li className="nav-item">
-                            <Link className="nav-link d-block" aria-current="page" to="/">
+                            <Link className="nav-link d-block" aria-current="page" to="/DemelNovoPortfolio">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path className="navbar-icons active" d="M21 13v10h-6v-6h-6v6h-6v-10h-3l12-12 12 12h-3zm-1-5.907v-5.093h-3v2.093l3 3z"/>
                                 </svg>
@@ -34,12 +34,12 @@ const Navbar = () => {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/about">
+                            <Link className="nav-link" to="/About">
                                 <span className="nav-link-text">About Me</span>
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/projects">
+                            <Link className="nav-link" to="/Projects">
                                 <span className="nav-link-text">Projects</span>
                             </Link>
                         </li>
