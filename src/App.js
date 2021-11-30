@@ -1,36 +1,24 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
-import Particles from "react-particles-js";
+import About from "./components/About";
+
 
 function App() {
   return (
-    <>
-      <Particles params={{
-          particles: {
-            number:{
-              value: 30,
-              density: {
-                enable: true,
-                value_area: 900
-              }
-            },
-            shape: {
-              type: "star",
-              stroke: {
-                width: 6,
-                color: "#03c03c"
-              }
-            }
-          }
-        }} />
-        
+    <Router>
       <Navbar />
-      <Header />
-    </>
-  );
+      <Routes>
+        <Route exact path="/" element={<Header />} />
+        <Route path="/About" element={<About />} />/
+      </Routes>
+      {/* <About /> */}
+    </Router>
+  )
 }
 
 export default App;
