@@ -1,14 +1,28 @@
-:root{
+:root {
   --primary-white: #fff;
   --primary-green: #03c03c;
 }
 
-body{
+body {
   overflow: hidden;
 }
 
+.btn-siteprim {
+  background-color: var(--primary-green) !important;
+  color: var(--primary-white) !important;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.text-prim{
+  color: var(--primary-green);
+}
+
 /* Navbar */
-nav{
+nav {
   z-index: 2;
 }
 
@@ -24,8 +38,8 @@ nav{
   fill: var(--primary-white);
 }
 
-.nav-link:hover .navbar-icons, .nav-link:hover svg .github-logo {
-  fill: var(--primary-green);
+.nav-link:hover .navbar-icons, .nav-link:hover svg .site-logo {
+  fill: var(--primary-green) !important;
 }
 
 .nav-link:hover .nav-link-text {
@@ -266,13 +280,13 @@ nav{
 /* Header */
 .header-wrapper {
   position: relative;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(pexels-pixabay-270360.jpg) no-repeat;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("./images/pexels-pixabay-270360.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   height: 95vh;
 }
 
-.main-info{
+.main-info {
   display: flex;
   position: absolute;
   top: 0;
@@ -286,18 +300,18 @@ nav{
   z-index: 1;
 }
 
-.main-info h1{
+.main-info h1 {
   color: var(--primary-green);
 }
 
 /* Typed Text */
-.typed-text{
+.typed-text {
   font-size: 2rem;
   color: var(--primary-white);
 }
 
 /* Particles */
-.tsparticles-canvas-el{
+.tsparticles-canvas-el {
   position: absolute;
   height: 95vh;
   width: 100vw;
@@ -306,6 +320,38 @@ nav{
 
 /* About */
 
-.div-about{
-  position: relative;
+.introduction {
+  color: var(--primary-green);
+}
+
+/* Skills */
+
+#prog-lang li {
+  list-style: none;
+  font-size: 30px;
+}
+
+/* Projects */
+
+.card {
+  width: 10%;
+}
+
+.card:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.card-btn {
+  background: transparent;
+  border: none !important;
+  font-size: 0;
+}
+
+.card-btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.modal-dialog {
+  width: 75vw;
 }
