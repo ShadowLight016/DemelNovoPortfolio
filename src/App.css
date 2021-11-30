@@ -1,38 +1,270 @@
-.App {
-  text-align: center;
+/* Navbar */
+:root{
+  --primary-white: #fff;
+  --primary-green: #03c03c;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#portfolio-text-splitted, #github-logo, #linkedin-logo, .navbar-icons {
+  fill: var(--primary-white)
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.navbar-icons.active, .nav-link.active {
+  color: var(--primary-green);
+  fill: var(--primary-green);
+}
+
+@media (min-width: 992PX) {
+  .navbar-brand.abs {
+    position: absolute;
+    width: auto;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    text-align: center;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#nav-brand-name-f {
+  -webkit-animation: change-color-f 3s infinite;
+          animation: change-color-f 3s infinite;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (min-width: 576px) {
+  .navbar-expand-sm .navbar-item-text {
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (min-width: 768px) {
+  .navbar-expand-md .navbar-item-text {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-item-text {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navbar-expand-xl .navbar-item-text {
+    display: none;
+  }
+}
+
+@media (min-width: 1400px) {
+  .navbar-expand-xxl .navbar-item-text {
+    display: none;
+  }
+}
+
+.navbar-expand .navbar-item-text {
+  display: none;
+}
+
+@-webkit-keyframes change-color-f {
+  0% {
+    fill: var(--primary-white);
+  }
+  10% {
+    fill: var(--primary-green);
+  }
+  20% {
+    fill: var(--primary-white);
+  }
+  80% {
+    fill: var(--primary-white);
+  }
+  90% {
+    fill: var(--primary-green);
+  }
+  100% {
+    fill: var(--primary-white);
+  }
+}
+
+@keyframes change-color-f {
+  0% {
+    fill: var(--primary-white);
+  }
+  10% {
+    fill: var(--primary-green);
+  }
+  20% {
+    fill: var(--primary-white);
+  }
+  80% {
+    fill: var(--primary-white);
+  }
+  90% {
+    fill: var(--primary-green);
+  }
+  100% {
+    fill: var(--primary-white);
+  }
+}
+
+#nav-brand-name-o2 {
+  -webkit-animation: change-color-o2 3s infinite;
+          animation: change-color-o2 3s infinite;
+}
+
+@-webkit-keyframes change-color-o2 {
+  10% {
+    fill: var(--primary-white);
+  }
+  20% {
+    fill: var(--primary-green);
+  }
+  30% {
+    fill: var(--primary-white);
+  }
+  70% {
+    fill: var(--primary-white);
+  }
+  80% {
+    fill: var(--primary-green);
+  }
+  90% {
+    fill: var(--primary-white);
+  }
+}
+
+@keyframes change-color-o2 {
+  10% {
+    fill: var(--primary-white);
+  }
+  20% {
+    fill: var(--primary-green);
+  }
+  30% {
+    fill: var(--primary-white);
+  }
+  70% {
+    fill: var(--primary-white);
+  }
+  80% {
+    fill: var(--primary-green);
+  }
+  90% {
+    fill: var(--primary-white);
+  }
+}
+
+#nav-brand-name-l {
+  -webkit-animation: change-color-l 3s infinite;
+          animation: change-color-l 3s infinite;
+}
+
+@-webkit-keyframes change-color-l {
+  20% {
+    fill: var(--primary-white);
+  }
+  30% {
+    fill: var(--primary-green);
+  }
+  40% {
+    fill: var(--primary-white);
+  }
+  60% {
+    fill: var(--primary-white);
+  }
+  70% {
+    fill: var(--primary-green);
+  }
+  80% {
+    fill: var(--primary-white);
+  }
+}
+
+@keyframes change-color-l {
+  20% {
+    fill: var(--primary-white);
+  }
+  30% {
+    fill: var(--primary-green);
+  }
+  40% {
+    fill: var(--primary-white);
+  }
+  60% {
+    fill: var(--primary-white);
+  }
+  70% {
+    fill: var(--primary-green);
+  }
+  80% {
+    fill: var(--primary-white);
+  }
+}
+
+#nav-brand-name-i {
+  -webkit-animation: change-color-i 3s infinite;
+          animation: change-color-i 3s infinite;
+}
+
+@-webkit-keyframes change-color-i {
+  30% {
+    fill: var(--primary-white);
+  }
+  40% {
+    fill: var(--primary-green);
+  }
+  50% {
+    fill: var(--primary-white);
+  }
+  60% {
+    fill: var(--primary-green);
+  }
+  70% {
+    fill: var(--primary-white);
+  }
+}
+
+@keyframes change-color-i {
+  30% {
+    fill: var(--primary-white);
+  }
+  40% {
+    fill: var(--primary-green);
+  }
+  50% {
+    fill: var(--primary-white);
+  }
+  60% {
+    fill: var(--primary-green);
+  }
+  70% {
+    fill: var(--primary-white);
+  }
+}
+
+#nav-brand-name-o3 {
+  -webkit-animation: change-color-o3 3s infinite;
+          animation: change-color-o3 3s infinite;
+}
+
+@-webkit-keyframes change-color-o3 {
+  40% {
+    fill: var(--primary-white);
+  }
+  50% {
+    fill: var(--primary-green);
+  }
+  60% {
+    fill: var(--primary-white);
+  }
+}
+
+@keyframes change-color-o3 {
+  40% {
+    fill: var(--primary-white);
+  }
+  50% {
+    fill: var(--primary-green);
+  }
+  60% {
+    fill: var(--primary-white);
   }
 }
