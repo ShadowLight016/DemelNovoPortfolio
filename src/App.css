@@ -332,6 +332,7 @@ nav {
 /* Skills */
 
 #prog-lang li {
+  padding: 0;
   list-style: none;
   font-size: 30px;
 }
