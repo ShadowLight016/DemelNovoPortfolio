@@ -1,6 +1,7 @@
 :root {
   --primary-white: #fff;
   --primary-green: #03c03c;
+  --primary-black: #000;
 }
 
 body {
@@ -15,6 +16,10 @@ body {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+}
+
+.btn-siteprim:hover {
+  background-color: var(--primary-black) !important;
 }
 
 .text-prim{
