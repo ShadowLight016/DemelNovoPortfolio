@@ -338,7 +338,8 @@ nav {
 }
 
 .card:hover {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(3, 192, 60, 0.2);
+  color: var(--primary-white);
 }
 
 .card-btn {
